@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(137, 203, 206);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  font-family: cursive;
+  font-weight: 400;
+  font-size:4em;
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  text-decoration: underline #2b8bc6;
+  
+
+}
+
+.box {
+  padding: 10px;
+  margin: 30px 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 33vw;
+  
+}
+
+.btn {
+  width: 33%;
+  height: 40px;
+  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); 
+  border: none;
+  border-radius: 5px;
+  position: reative;
+  border-bottom: 4px solid #2b8bc6;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: cursive;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: center;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+  margin-top: 1.5em;
+  
+  align-content: center;
+}
+
+.btn:active {
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.2);
+  top: 1px;
+}
+
+
+
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 80%;
+  height: 70px;
+  margin-top: 20px;
+  
+  
+}
+
+label {
+  text-decoration: underline #4eb5e5;
+   font-family: cursive; 
+   font-size: 1.8em;
+}
+
